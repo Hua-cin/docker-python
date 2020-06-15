@@ -304,7 +304,7 @@ RUN pip install --upgrade cython && \
     pip install emoji && \
     # Add Japanese morphological analysis engine
     pip install janome && \
-    pip install wfdb && \
+    pip install wfdb==2.2.1 && \
     pip install vecstack && \
     # Doesn't support Python 3.7 yet. Last release on pypi is from 2017.
     # Add back once this PR is released: https://github.com/scikit-learn-contrib/lightning/pull/133
