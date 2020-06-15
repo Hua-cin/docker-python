@@ -387,7 +387,7 @@ RUN pip install bcolz && \
     ###########
 
 RUN pip install flashtext && \
-    pip install wandb && \
+    pip install wandb=0.8.36 && \
     pip install marisa-trie && \
     pip install pyemd && \
     pip install pyupset && \
